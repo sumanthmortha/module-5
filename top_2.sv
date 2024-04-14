@@ -60,10 +60,7 @@ module top #(parameter confi = 40)(
     logic r_input_tlast;
     logic r_input_tvalid;
     
-    logic [15:0]fifo_wire_1;             // wires for filtering the desired data 
-    logic [15:0]w_input_tdata;
-    
-    logic [15:0]data_out = 0;
+   
     
     logic [15:0]r_output_tdata = 0;               // registering for outputs
     logic r_output_tvalid = 0;
